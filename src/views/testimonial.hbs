@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/testimonial.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+          <div class="nav-left">
+            <img src="/image/dumbwys.png" alt="" />
+            <div class="link">
+              <a href="index.html"class="active-link">Home</a>
+              <a href="blog.html">My Project</a>
+              <a href="testimonial.html">Testimonial</a>
+            </div>
+          </div>
+          <div class="nav-right">
+            <a href="/">Contact Me</a>
+            <div class="burger" onclick="bars(this)">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+      <div class="items-hamburger" id="items-bars">
+        <a href="/">Home</a>
+        <a href="/">My Project</a>
+        <a href="/">Testimonial</a>
+        <a href="/">Contact Me</a>
+      </div>
+      <!-- navbar end -->
+      <hr>
+      <div class="container-testi"
+    >
+      <h1>My Testimonials</h1>
+      <div class="container-rating">
+        <h2>Rating By Star</h2>
+        <div class="rating">
+          <button class="rating-btn" onclick="allTestimonials()">All</button>
+          <button class="rating-btn" onclick="QuFiltered(1)">
+            1 <i class="fa-solid fa-star"></i>
+          </button>
+          <button class="rating-btn" onclick="QuFiltered(2)">
+            2 <i class="fa-solid fa-star"></i>
+          </button>
+          <button class="rating-btn" onclick="QuFiltered(3)">
+            3 <i class="fa-solid fa-star"></i>
+          </button>
+          <button class="rating-btn" onclick="QuFiltered(4)">
+            4 <i class="fa-solid fa-star"></i>
+          </button>
+          <button class="rating-btn" onclick="QuFiltered(5)">
+            5 <i class="fa-solid fa-star"></i>
+          </button>
+        </div>
+      </div>
+      <section
+        class="testimonials"
+        id="Qu-testimonials"
+      >
+    
+        <!--datadiekspor--->
+      </section>
+    </div>
+  </body>
+  <script src="/js/nav.js"></script>
+  <script src="/js/testimonial.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>  
+    
+</body>
+</html>
